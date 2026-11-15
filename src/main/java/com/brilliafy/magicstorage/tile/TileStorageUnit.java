@@ -13,7 +13,7 @@ import javax.annotation.Nullable;
 
 public class TileStorageUnit extends TileEntity {
 
-    public static final int[] TIER_SLOT_COUNTS = {36, 54, 54, 90, 135, 180, 252, 360};
+    public static final int[] TIER_SLOT_COUNTS = {72, 108, 108, 180, 270, 360, 252, 360};
     public static final String[] TIER_NAMES = {"Basic", "Crimtane", "Demonite", "Hellstone", "Hallowed", "Blue Chlorophyte", "Luminite", "Terra"};
 
     private int tier = 0;
